@@ -76,16 +76,21 @@ Therefore, we can conclude that something has gone wrong with Manufacturing Lot 
 
 ## Deliverable 4 - Study Design: MechaCar vs Competition
 
-##### Metrics
+#### Metrics
 
 The goal is to design a statistical study to improve vehicle performance of the MechaCar vehicles against vehicles by other manufactureres. Although there are many, one important metric that I think might interest consumers and motivate them to buy from Mechacar instead of other manufacturers is the Resale Value of the car. 
 
 
-##### Null & Alternative Hypothesis
+#### Null & Alternative Hypothesis
 
 H<sub>0</sub> : There is no statistically significant difference between resale value mean of Mechacar vehicles and other competitors
 
 H<sub>a</sub> : There is a statistically significant difference between the resale value mean of Mechacar vehicles and other competitors
+
+#### Statistical Tests
+
+In order to test the above-mentioned hypothesis, we will conduct a one-way ANOVA test. A one-way ANOVA(Analysis of Variance) is used to test the means of a single dependent variable across a single independent variable with multiple groups. In this case, it will allow us to compare the resale value of MechaCar vehicles with several other competitors.
+
 
 
 
