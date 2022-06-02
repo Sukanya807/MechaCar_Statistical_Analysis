@@ -6,6 +6,8 @@ Statistical Analysis using R
 
 ## Deliverable 1 - Linear Regression to Predict MPG
 
+![](images/dev1_multiple_regression_summary.png)
+
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
 At a confidence level of 95%, the significance level is 0.05. Therefore, the p-value should be less than 0.05 to be statistically significant.
