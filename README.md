@@ -46,6 +46,36 @@ The r<sup>2</sup> value in this case is 0.7149, which means that this linear mod
 
 ![new](images/lot_summary1_df.png)
 
+## Deliverbale 3- T-Tests on Suspension Coils
+
+1. Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+![](images/dev3_onesamplettest_alllot.png)
+
+The t-Test for all manufacturing lots show a p-value of 0.06028 which is higher than our assumed significance level of 0.05. Therefore, we fail to reject null hypothesis, which means that the PSI across all manufacturing lots is not statistically different from the presumed population mean of 1500.
+
+2. Determine if the PSI across manufacturing lot 1 is statistically different from the population mean of 1,500 pounds per square inch.
+
+![](images/dev3_ttest_lot1.png)
+
+The t-Test for manufacturing lot 1 shows a p-value of 1 which is higher than our assumed significance level of 0.05. Therefore, we fail to reject null hypothesis, which means that the PSI mean across manufacturing lot 1 is not statistically different from the presumed population mean of 1500.
+
+3. Determine if the PSI across manufacturing lot 2 is statistically different from the population mean of 1,500 pounds per square inch.
+
+![](images/dev3_ttest_lot2.png)
+
+The t-Test for manufacturing lot 2 shows a p-value of 0.6072 which is again higher than our significance level of 0.05. Therefore, we fail to reject the null hypothesis, which means that there is no statistical difference between sample PSI mean and population mean of 1500.
+
+4. Determine if the PSI across manufacturing lot 2 is statistically different from the population mean of 1,500 pounds per square inch.
+
+![](images/dev3_ttest_lot3.png)
+
+The t-Test for manufacturing lot 3 shows a p-value of 0.04168 which is lower than our significance level of 0.05. Therefore, we reject the null hypothesis, meaning that there is a statistically significant difference between the lot 3 mean and the population mean of 1500.
+
+Therefore, we can conclude that something has gone wrong with Manufacturing Lot 3 that is resulting in the production troubles. The company needs to inspect the suspension coils from Manufacturing Lot 3. 
+
+
+
 
 
 
