@@ -10,6 +10,17 @@ The purpose of the project is to help AutosRUs' newest prototype Mechacar, which
 - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
+## Resources
+
+#### Data Used
+MechaCar_mpg.csv
+Suspension_Coil.csv
+
+#### Software
+- R 4.2.0
+- RStudio
+- VS Code
+
 
 ## Deliverable 1 - Linear Regression to Predict MPG
 
