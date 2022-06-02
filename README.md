@@ -40,7 +40,7 @@ In case of linear regression analysis,
 
 H<sub>0</sub> : The slope of the linear model is zero 
 
-H<sub>1</sub>: The slope of the linear model is not zero
+H<sub>a</sub>: The slope of the linear model is not zero
 
 In this case, our p-value is less than our assumed significance level of 0.05
 
