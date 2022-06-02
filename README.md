@@ -8,11 +8,9 @@ Statistical Analysis using R
 
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
-  At a confidence level of 95%, the significance level is 0.05. Therefore, the p-value should be less than 0.05 to be statistically significant.
+At a confidence level of 95%, the significance level is 0.05. Therefore, the p-value should be less than 0.05 to be statistically significant.
   
 As a result, the variables or coefficients that provides a non-random amount of variance to the mpg values are vehicle length(Pr(>|t|)=2.60e-12),ground-      clearance(Pr(>|t|)=5.21e-08) and also the intercept(Pr(>|t|)=5.08e-08).
-
-  
 
 **Is the slope of the linear model considered to be zero? Why or why not?**
 
@@ -29,5 +27,11 @@ p-value=5.35e-11
 p-value<0.05
 
 Therefore, we reject the null hypothesis, which means that the slope of the linear model is not zero.
+
+**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
+
+The r<sup>2</sup> value in this case is 0.7149, which means that this linear model can predict approx 71% of mpg values of Mechacar prototypes.
+
+
 
 
