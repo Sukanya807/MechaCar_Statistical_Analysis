@@ -91,6 +91,10 @@ H<sub>a</sub> : There is a statistically significant difference between the resa
 
 In order to test the above-mentioned hypothesis, we will conduct a one-way ANOVA test. A one-way ANOVA(Analysis of Variance) is used to test the means of a single dependent variable across a single independent variable with multiple groups. In this case, it will allow us to compare the resale value of MechaCar vehicles with several other competitors.
 
+#### Data Required to Run Statistical Test
+
+In order to conduct a one-way ANOVA test, we will require one dependent variable and one independent variable. In this case, our dependent variable would be the Resale Value which is numerical and continuous and the independent variable could be vehicle class which is categorical. We also need to validate that the dependent variable is normally distributed and that the variance among each group is similar. In R, we can use the aov() function along with the summary() function to conduct the the ANOVA test. If the Pr(>F) value is greater than our assumed significance level of 0.05 at 95% confidence level, we can conclude that there is no statistically significant difference between the means of the groups. Otherwise, we will know that atleast one of the means is different from all other groups which would then require us to conduct further tests.
+
 
 
 
