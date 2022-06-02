@@ -16,12 +16,13 @@ As a result, the variables or coefficients that provides a non-random amount of 
 
 **Is the slope of the linear model considered to be zero? Why or why not?**
 
-In case of regression analysis
+In case of linear regression analysis,
+
 H<sub>0</sub> : The slope of the linear model is zero 
 
 H<sub>1</sub>: The slope of the linear model is not zero
 
-In this case, 
+In this case, our p-value is less than our assumed significance level of 0.05
 
 p-value=5.35e-11
 
