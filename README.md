@@ -74,6 +74,21 @@ The r<sup>2</sup> value in this case is 0.7149, which means that this linear mod
 
 Therefore, we can conclude that something has gone wrong with Manufacturing Lot 3 that is resulting in the production troubles. The company needs to inspect the suspension coils from Manufacturing Lot 3. 
 
+## Deliverable 4 - Study Design: MechaCar vs Competition
+
+##### Metrics
+
+The goal is to design a statistical study to improve vehicle performance of the MechaCar vehicles against vehicles by other manufactureres. Although there are many, one important metric that I think might interest consumers and motivate them to buy from Mechacar instead of other manufacturers is the Resale Value of the car. 
+
+
+##### Null & Alternative Hypothesis
+
+H<sub>0</sub> : There is no statistically significant difference between resale value mean of Mechacar vehicles and other competitors
+
+H<sub>a</sub> : There is a statistically significant difference between the resale value mean of Mechacar vehicles and other competitors
+
+
+
 
 
 
