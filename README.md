@@ -30,7 +30,9 @@ Suspension_Coil.csv
 
 At a confidence level of 95%, the significance level is 0.05. Therefore, the p-value should be less than 0.05 to be statistically significant.
   
-As a result, the variables or coefficients that provides a non-random amount of variance to the mpg values are vehicle length(Pr(>|t|)=2.60e-12),ground-         clearance(Pr(>|t|)=5.21e-08) and also the intercept(Pr(>|t|)=5.08e-08).
+As a result, the variables or coefficients that provides a non-random amount of variance to the mpg values are vehicle length(Pr(>|t|)=2.60e-12),ground-         clearance(Pr(>|t|)=5.21e-08) and also the intercept(Pr(>|t|)=5.08e-08). 
+
+This indicates that vehicle length and ground clearance have statistically significant impact on fuel efficiency(mpg). Also, the intercept is statistically significant, meaning there are other variables or factors that may contribute to the variation in mpg values but are not included in the linear model.
 
 **2. Is the slope of the linear model considered to be zero? Why or why not?**
 
