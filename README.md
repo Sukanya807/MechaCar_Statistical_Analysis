@@ -44,7 +44,7 @@ The r<sup>2</sup> value in this case is 0.7149, which means that this linear mod
 
 - In our lot_summary dataframe, we can see that the variance for Lot 1 is 1(approx) and lot 2 is 7(approx). Therefore, they are within the design specification limit of 100 PSI. However, the variance for Lot 3 is 170 which is much higher than the design specification limit of 100 PSI.
 
-![](images/lot_summary_df.png)
+![new](images/lot_summary_df.png)
 
 
 
